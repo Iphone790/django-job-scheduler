@@ -1,0 +1,7 @@
+gunicorn.ctl
+*.sock
+__pycache__/
+*.pyc
+staticfiles/
+.env
+.git
