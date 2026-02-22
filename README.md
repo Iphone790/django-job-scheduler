@@ -83,43 +83,19 @@ Supports retry logic
 -------------
 
 Language: Python 3.x
-
-Framework: Django
-
+Framework: Django rest framework
 Database: PostgreSQL
-
 Containerization: Docker
-
 Version Control: Git + GitHub
 
-🚀 Getting Started
-🔹 Clone Repository
-git clone git@github.com:Iphone790/django-job-scheduler.git
+🚀 Getting Started:
+-------------------
+
+Run these command to Run:
+
+git clone https://github.com/Iphone790/django-job-scheduler.git
 cd django-job-scheduler
-🔹 Create Virtual Environment
-python -m venv venv
-source venv/bin/activate
-🔹 Install Dependencies
-pip install -r requirements.txt
-🔹 Apply Migrations
-python manage.py migrate
-▶ Running the Worker
-
-Start the background worker:
-
-python manage.py run_worker
-
-Worker behavior:
-
-Poll interval: 5 seconds
-
-Batch size: 5 jobs
-
-Executes due scheduled tasks
-
-Handles retry logic
-
-Updates job status
+docker-compose up --build
 
 🔄 Job Lifecycle:
 -----------------
