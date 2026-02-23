@@ -184,8 +184,6 @@ Docker-based deployment
 -----------
 
 Aditya Verma
+Mob - 7408415859
 GitHub: https://github.com/Iphone790
 
- interviews
-
-Tell me your goal 🚀
